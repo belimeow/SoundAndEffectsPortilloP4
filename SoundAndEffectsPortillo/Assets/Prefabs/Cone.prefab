@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 6130285740619275460}
   m_Layer: 0
   m_Name: Cone
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,8 +129,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4910762, y: 1.6880773, z: 1.624927}
-  m_Center: {x: 0.025538087, y: 0.99005085, z: 0.04246354}
+  m_Size: {x: 1.2105179, y: 1.6880773, z: 1.1658468}
+  m_Center: {x: -0.010154724, y: 0.99005085, z: 0.00011062622}
 --- !u!54 &921336141063498131
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -145,7 +145,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 90
   m_CollisionDetection: 0
 --- !u!114 &6130285740619275460
 MonoBehaviour:
